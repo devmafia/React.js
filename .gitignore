@@ -1,0 +1,72 @@
+# Node.js dependencies (for backend and frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs and debugging files
+logs/
+*.log
+*.gz
+debug.log
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+public/build/
+
+# Coverage reports (for Jest, Cypress, etc.)
+coverage/
+.nyc_output/
+
+# Typescript cache
+*.tsbuildinfo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Serverless & Docker files
+.serverless/
+.dockerignore
+docker-compose.override.yml
+
+# Firebase, Amplify, and other cloud services
+.firebase/
+.amplify/
+aws-exports.js
+
+# Jest snapshots
+__snapshots__/
+
+# ESLint cache
+.eslintcache
+
+# Ignore compiled files
+*.out
+*.exe
+*.dll
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore Storybook builds
+.storybook-out/
+
+# Ignore Cypress test results
+cypress/videos/
+cypress/screenshots/
+
+# Ignore Nginx configuration (if using)
+nginx.conf
